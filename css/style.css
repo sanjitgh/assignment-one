@@ -207,3 +207,51 @@ p {
     height: 615px;
     border-radius: 16px;
 }
+
+/* current_target */
+.current_target{
+    margin-bottom: 100px;
+}
+.current_target_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.current_target_card{
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.current_target_card img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+
+.current_target_card h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.current_target_card a{
+    margin-top: 24px;
+    display: block;
+    color: #0D1321;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.card_1{
+    background-color: rgba(255, 76, 30, 0.05);
+    width: 33.33%;
+}
+.card_2{
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 33.33%;
+}
+.card_3{
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 33.33%;
+}
