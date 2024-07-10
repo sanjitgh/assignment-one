@@ -255,3 +255,38 @@ p {
     background-color: rgba(255, 223, 0, 0.05);
     width: 33.33%;
 }
+
+/* next_target */
+.next_target{
+    margin-bottom: 50px;
+}
+
+.next_target_wrapper{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    box-shadow: 0 0 1px 1px rgba(13, 19, 33, 0.15);
+    margin-bottom: 24px;
+}
+.next_target_wrapper:last-child{
+    margin-bottom: 0;
+}
+.nxt_trg_right_item h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.nxt_trg_right_item p{
+    margin-bottom: 24px;
+}
+
+.nxt_trg_right_item a{
+   font-weight: bold;
+   text-transform: capitalize;
+   color: #0D1321;
+}
+
+.nxt_trg_left_item img{
+    width: 100px;
+}
