@@ -121,20 +121,21 @@ p {
     padding: 80px 95px;
 }
 
-.web_dev_header {
+.section_header {
     text-align: center;
     max-width: 850px;
     margin: 0 auto;
 }
 
-.web_dev_header h1 {
+.section_header h1 {
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.web_dev_header p {
+.section_header p {
     margin-bottom: 50px;
+    color: #545863;
 }
 
 .dev_item_style {
@@ -144,7 +145,8 @@ p {
     padding: 48px;
     border-radius: 16px;
 }
-.dev_item_content{
+
+.dev_item_content {
     width: 477px;
 }
 
@@ -156,9 +158,10 @@ p {
     line-height: 36px;
 }
 
-.dev_item_style p{
+.dev_item_style p {
     color: #555963;
 }
+
 .dev_item1 {
 
     background: linear-gradient(to right, white, transparent);
@@ -172,15 +175,11 @@ p {
     justify-content: start;
     gap: 32px;
 }
+
 .dev_item3 {
     background: linear-gradient(to right, white, transparent);
 }
-.dev_left_item{
 
-}
-.dev_right_item{
-
-}
 .btn_learn {
     font-size: 20px;
     font-weight: 600;
@@ -190,4 +189,21 @@ p {
     color: rgba(13, 19, 33, 0.7);
     text-transform: capitalize;
     margin-top: 44px;
+}
+
+/* current_target */
+.inspiration {
+    margin-bottom: 150px;
+}
+
+.video_section {
+    border: 32px solid #fff;
+    border-radius: 16px;
+    box-shadow: 0 0 1px 1px rgba(13, 19, 33, 0.2);
+}
+
+.video_size {
+    width: 100%;
+    height: 615px;
+    border-radius: 16px;
 }
