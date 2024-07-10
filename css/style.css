@@ -290,3 +290,66 @@ p {
 .nxt_trg_left_item img{
     width: 100px;
 }
+
+/* support form */
+.support_bg{
+    background: linear-gradient(rgb(0 0 0 / 40%), rgb(0 0 0 / 40%)), url(../images/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 48px;
+    text-align: center;
+    margin-bottom: 80px;
+    border-radius: 16px;
+}
+
+.support_header h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.support_header p{
+    color: #D4D0CC;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+
+.submit_form{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.submit_form input{
+    display: block;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    font-family: "Azeret Mono", monospace;
+}
+
+.submit_form input:focus{
+    outline: none;
+}
+
+.submit_form input::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+}
+
+.submit_form input[type=text]{
+    width: 80%;
+}
+
+.submit_form input[type=submit]{
+    background-color: #fff;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
